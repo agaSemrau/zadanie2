@@ -1,0 +1,61 @@
+@import '_partials';
+
+.offer {
+    .background-container {
+        background: url('../../images/common/triangles.png');
+        position: relative;
+        overflow: hidden;
+        .offer-container {
+            text-align: center;
+            margin-bottom: 60px;
+            .offer-header {
+                margin-top: 60px;
+                margin-bottom: 60px;
+                font-size: 40px;
+                font-weight: bolder;
+                color: $dark-violet;
+                display: block;
+            }
+
+            .message1 {
+                background: url('../../images/oferta/t5.png') center no-repeat;
+            }
+            .message2 {
+                background: url('../../images/oferta/t6.png') center no-repeat;
+            }
+            .message3 {
+                background: url('../../images/oferta/t7.png') center no-repeat;
+            }
+
+            .message {
+                margin-top: 10px;
+                line-height: 80px;
+                font-weight: bolder;
+                text-align: center;
+                -moz-transition: all 0.4s ease;
+                -webkit-transition: all 0.4s ease;
+                -ms-transition: all 0.4s ease;
+                -o-transition: all 0.4s ease;
+                transition: all 0.4s ease;
+                a {
+                    font-size: 25px;
+                    color: $white;
+                }
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+            .message:hover {
+                -moz-transform: scale(1.05);
+                -webkit-transform: scale(1.05);
+                -o-transform: scale(1.05);
+                -ms-transform: scale(1.05);
+                transform: scale(1.05);
+                z-index: 2;
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,54 @@
+@import '_partials';
+
+.advantages {
+    margin-top: -20px;
+    background-color: $orange;
+
+    .container {
+        margin-bottom: 30px;
+        .icone {
+            margin: auto;
+            margin-bottom: 40px;
+            text-align: center;
+
+            img {
+                height: 80px;
+                -moz-transition: all 0.4s ease;
+                -webkit-transition: all 0.4s ease;
+                -ms-transition: all 0.4s ease;
+                -o-transition: all 0.4s ease;
+                transition: all 0.4s ease;
+            }
+            img:hover {
+                -moz-transform: scale(1.09);
+                -webkit-transform: scale(1.09);
+                -o-transform: scale(1.09);
+                -ms-transform: scale(1.09);
+                transform: scale(1.09);
+                z-index: 2;
+            }
+            p {
+                font-weight: bold;
+                color: $white;
+                font-size: 20px;
+                margin-top: 20px;
+                height: 60px;
+            }
+        }
+        .advantages-header {
+            margin-top: 60px;
+            margin-bottom: 60px;
+            font-size: 40px;
+            font-weight: bolder;
+            color: $white;
+            display: block;
+            text-align: center;
+        }
+    }
+
+}
+.separator-advantages {
+    background-image: url('../../images/advantages/t3.png');
+    height: 34px;
+    background-color: $orange;
+}

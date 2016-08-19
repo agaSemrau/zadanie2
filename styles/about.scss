@@ -1,0 +1,26 @@
+@import '_partials';
+
+#about-program {
+    color: $dark-violet;
+    margin-bottom: 30px;
+    .program-header {
+        .header-about {
+            margin-top: 30px;
+        }
+    }
+    .program-description {
+        margin-top: 30px;
+        p {
+            margin-bottom: 10px;
+            line-height: 25px;
+            font-size: 20px;
+        }
+        p:nth-child(2) {
+            font-weight: bolder;
+        }
+        h4 {
+            margin-top: 20px;
+        }
+    }
+
+}

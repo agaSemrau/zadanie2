@@ -1,0 +1,76 @@
+{
+  "user": {
+    "name": "Aleksandra",
+    "surname": "Obardzodługim-Nazwisku",
+    "image": "images/apps/product_zajeciakomputerowe.png"
+  },
+  "application": {
+    "demoUrl": "http://gwo.pl",
+    "sectionsListUrl": "http://gwo.pl"
+  },
+  "otherApps": [
+    {
+      "name": "Zajęcia komputerowe",
+      "image": "images/apps/product_zajeciakomputerowe.png",
+      "tags": "edukacja wczesnoszkolna, klasy 1-3",
+      "description": "Program dla klas 1–3 szkoły podstawowej. Poprzez zabawę oswaja uczniów z obsługą komputera, a także doskonali ich umiejętności matematyczne i polonistyczne.",
+      "showMoreUrl": "http://zajeciakomputerowe.gwo.pl/"
+    },
+    {
+      "name": "Multipodręczniki",
+      "image": "images/apps/product_multipodreczniki.png",
+      "tags": "",
+      "description": "Cyfrowe wersje książek GWO uzupełnione o treści interaktywne (dźwięki, animacje, filmy itp.). Pozwalają korzystać z zalet nowych technologii w codziennej nauce.",
+      "showMoreUrl": "http://e-gwo.pl/multiksiazki"
+    },
+    {
+      "name": "Kompozytor klasówek",
+      "image": "images/apps/product_kompozytor.png",
+      "tags": "matematyka, szkoła podstawowa i gimnazjum",
+      "description": "Sprawdzony serwis internetowy dla nauczycieli edukacji wczesnoszkolnej, języka polskiego i matematyki. Służy do szybkiego układania, zapisywania oraz drukowania różnych zestawów zadań.",
+      "showMoreUrl": "http://kompozytorklasowek.gwo.pl/"
+    },
+    {
+      "name": "Matlandia",
+      "image": "images/apps/product_matlandia.png",
+      "tags": "matematyka, szkoła podstawowa, klasy 4–6",
+      "description": "Program wspierający naukę matematyki w szkole podstawowej. Doskonali biegłość rachunkową i kładzie nacisk na wykorzystanie matematyki w codziennych sytuacjach.",
+      "showMoreUrl": "http://matlandia.gwo.pl/"
+    },
+    {
+      "name": "Władcy Słów",
+      "image": "images/apps/product_wladcyslow.png",
+      "tags": "język polski, szkoła podstawowa, klasy 4–6",
+      "description": "Program wspierający naukę języka polskiego w szkole podstawowej. Zawiera ćwiczenia obejmujące ortografię, wiedzę o języku, tworzenie wypowiedzi pisemnych oraz czytanie ze zrozumieniem.",
+      "showMoreUrl": "http://wladcyslow.gwo.pl/"
+    },
+    {
+      "name": "Histlandia",
+      "image": "images/apps/product_histlandia.png",
+      "tags": "historia i społeczeństwo, szkoła podstawowa, klasy 4–6",
+      "description": "Program do nauki historii i społeczeństwa w szkole podstawowej. Pomaga uczniom w zapamiętywaniu ważnych dat i pojęć. Sprawdza także znajomość zabytków i map.",
+      "showMoreUrl": "http://histlandia.gwo.pl/"
+    },
+    {
+      "name": "PowtórkoMat",
+      "image": "images/apps/product_powtorkomat.png",
+      "tags": "matematyka, szkoła podstawowa, klasa 6",
+      "description": "Program uczy za pomocą filmów i komentarzy, jak rozwiązywać różne typy zadań z matematyki z zakresu szkoły podstawowej. Pozwala również na szybkie sprawdzenie zdobytych umiejętności.",
+      "showMoreUrl": "http://powtorkomat.gwo.pl/"
+    },
+    {
+      "name": "Imperium Rzymskie",
+      "image": "images/apps/product_imperiumrzymskie.png",
+      "tags": "historia, wszystkie poziomy nauczania",
+      "description": "Interaktywny atlas historyczny. Prezentuje rok po roku ponad tysiąc lat dziejów państwa rzymskiego — od legendarnych początków miasta w 753 r. p.n.e. do upadku cesarstwa zachodniego w 476 r. n.e.",
+      "showMoreUrl": "http://maparzymu.gwo.pl/"
+    },
+    {
+      "name":"Państwo polskie",
+      "image": "images/apps/product_panstwopolskie.png",
+      "tags": "historia, wszystkie poziomy nauczania",
+      "description": "Interaktywny atlas historyczny. Przedstawia rok po roku ponad tysiąc lat dziejów państwa polskiego — od początku rządów pierwszego historycznego władcy Polski Mieszka I do czasów współczesnych.",
+      "showMoreUrl": "http://mapahistoryczna.gwo.pl/"
+    }
+  ]
+}

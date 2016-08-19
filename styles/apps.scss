@@ -1,0 +1,87 @@
+@import '_partials';
+
+.apps {
+    background-color: $light_violet;
+    margin-top: -20px;
+    background-image: url('../../images/common/dark_triangle.png');
+
+    .apps-container {
+        margin-bottom: 60px;
+
+        .apps-row {
+            margin-top: 80px;
+            .apps-header {
+                margin-bottom: 60px;
+                font-size: 40px;
+                font-weight: bolder;
+                color: $white;
+                display: block;
+                text-align: center;
+            }
+            .tile {
+                height: 470px;
+                margin-bottom: 15px;
+                .content {
+                    margin: auto;
+                    background-color: $white;
+                    width: 370px;
+                    height: 470px;
+                    img {
+                        width: 100%;
+                    }
+                    h4, h2, p {
+                        padding: 0 12px;
+                    }
+                    h2 {
+                        font-size: 25px;
+                        font-style: italic;
+                        font-weight: bolder;
+                        padding-top: 10px;
+                        line-height: 30px;
+                    }
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 300;
+                        padding-top: 5px;
+                    }
+                    p {
+                        padding-top: 10px;
+                        font-size: 14px;
+                    }
+                    a {
+                        font-size: 14px;
+                        position: absolute;
+                        left: 240px;
+                        bottom: 10px;
+                    }
+                    span {
+                        color: $grey;
+                        font-weight: bold;
+                    }
+                }
+                .content:hover {
+                    -webkit-box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.27);
+                    -moz-box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.27);
+                    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.27);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .apps {
+        .apps-container {
+            .tile {
+                .content {
+                    width: 250px !important;
+                    height: 460px !important;
+                    a {
+                        left: 160px !important;
+                        bottom: 20px !important;
+                    }
+                }
+            }
+        }
+    }
+}

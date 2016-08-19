@@ -1,0 +1,23 @@
+<link rel="stylesheet" type="text/css" href="dist/styles/apps.min.css"/>
+<div class="reversed"></div>
+
+<div class="apps container-fluid" id="apps">
+    <div class="container apps-container">
+        <div class="row apps-row">
+             <span class="apps-header">
+            Nasze programy
+        </span>
+        {% for app in otherApps %}
+            <div class="tile col-md-6 col-lg-4">
+                <div class="content">
+                <img src="{{ app.image }}">
+                <h2>{{ app.name }}</h2>
+                <h4>{{ app.tags }}</h4>
+                <p>{{ app.description }}</p>
+                <a href="">Zobacz więcej <span>&#62;</span></a>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>

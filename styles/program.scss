@@ -1,0 +1,61 @@
+@import '_partials';
+.program {
+    background-color: $blue;
+    margin-top:-20px;
+
+.program-container{
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .icone {
+        margin-bottom: 40px;
+        text-align: center;
+        img {
+            height: 240px;
+            -moz-transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            -ms-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+         img:hover {
+            -moz-transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+            z-index: 2;
+        }
+    }
+    .program, span {
+        display:block;
+        margin-top: 60px;
+        color:$white;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .program-header {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    span{
+        line-height: 50px;
+    }
+}
+}
+.separator-program {
+    background-image: url('../../images/program/t4.png');
+    height: 60px;
+    margin-top:-30px;
+}
+
+@media screen and (max-width: 460px) {
+    .program-container {
+        .icone {
+            img {
+                height: 190px !important;
+            }
+        }
+    }
+
+}

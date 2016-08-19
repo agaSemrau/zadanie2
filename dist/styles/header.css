@@ -1,0 +1,129 @@
+.separator {
+  background-image: url("../../images/header/t2.png");
+  height: 34px;
+  background-color: #5353a6;
+}
+
+.header {
+  background: url("../../images/common/triangles.png");
+}
+.header .custom-next-html {
+  margin-left: -100%;
+}
+.header a .logo-holder {
+  height: 80px;
+  width: 350px;
+  background: url("../../images/header/t10.png") no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+}
+.header .navbar1 {
+  padding: 20px 0;
+}
+.header .navbar1 .flex-container .right-container {
+  color: #474b8a;
+}
+.header .navbar1 .flex-container .right-container .user, .header .navbar1 .flex-container .right-container .logout {
+  padding-top: 25px;
+  text-align: right;
+  font-weight: bold;
+  color: #474b8a;
+}
+.header .navbar1 .flex-container .right-container .logout:hover {
+  font-weight: bolder;
+}
+.header .navbar1 .flex-container .right-container ul {
+  z-index: 10;
+  padding-top: 20px;
+  position: relative;
+  padding-left: 0;
+}
+.header .navbar1 .flex-container .right-container ul li {
+  display: inline-block;
+  list-style: none;
+  text-align: right;
+  padding-bottom: 10px;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 0;
+}
+.header .navbar1 .flex-container .right-container ul li a {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #474b8a;
+}
+.header .navbar1 .flex-container .right-container ul li a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.header .navbar1 .flex-container .right-container ul li img {
+  margin: 0 15px 0 0;
+  height: 30px;
+  vertical-align: -5px;
+}
+.header .slider-top div .slide {
+  width: 100vw;
+}
+.header .slider-top div .comic {
+  position: absolute;
+  bottom: 45%;
+  margin-left: 70vw;
+}
+.header .navbar2 {
+  min-height: 60px;
+  background-color: #5353a6;
+  border-bottom: 3px #3a3a75 solid;
+}
+.header .navbar2 div .main-nav {
+  margin: 0;
+}
+.header .navbar2 div .main-nav li {
+  padding: 15px;
+}
+.header .navbar2 div .main-nav li a {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.header .navbar2 div .main-nav li img {
+  height: 30px;
+}
+.header .navbar2 div .main-nav li a.home {
+  display: block;
+}
+.header .navbar2 div .main-nav li:hover, .header .navbar2 div .main-nav a:hover, .header .navbar2 div .main-nav .active {
+  background-color: #3a3a75;
+}
+.header .navbar2 div .main-nav li:first-child:hover, .header .navbar2 div .main-nav .home:hover {
+  background-color: #5353a6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .user, .logout {
+    text-align: left !important;
+  }
+
+  .slider-top div .comic {
+    bottom: 35% !important;
+    margin-left: 60vw !important;
+    width: 180px !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  .slider-top div .comic {
+    bottom: 40% !important;
+    margin-left: 50vw !important;
+    width: 120px !important;
+  }
+
+  #menu {
+    right: 60% !important;
+  }
+
+  .header a .logo-holder {
+    width: 270px !important;
+    height: 62px !important;
+  }
+}
