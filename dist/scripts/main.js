@@ -97,14 +97,18 @@ $(document).ready(function () {
     //----------------smooth scrolling---------------------------------//
 
     var $root = $('html, body');
-    $('a').click(function () {
+    var $linkSmooth = $('a').not('.lSNext, .lsPrev');
+    $linkSmooth.click(function () {
         var href = $.attr(this, 'href');
-        $root.animate({
-            scrollTop: $(href).offset().top - 80
-        }, 600, function () {
-            window.location.hash = href;
-        });
-        return false;
+
+            $root.animate({
+                scrollTop: $(href).offset().top - 80
+            }, 600, function () {
+                window.location.hash = href;
+
+            });
+            return false;
+
     });
 
 

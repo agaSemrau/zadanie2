@@ -1,6 +1,8 @@
 /*!
  * gulp
  * $ npm install gulp-ruby-sass gulp-autoprefixer gulp-cssnano gulp-jshint gulp-concat gulp-uglify gulp-notify gulp-rename gulp-livereload gulp-cache del --save-dev
+ *
+ * npm install --save-dev jshint gulp-jshint
  */
 
 // Load plugins
